@@ -97,8 +97,6 @@ async function fetchWeather(location, setWeather) {
   }
 }
 
-// API MAPS:  AIzaSyAo8jUK2y2L0-k6bLNhSY4l0oRH93nowYc
-
 function App() {
   const [weather, setWeather] = useState({});
 
