@@ -1,0 +1,23 @@
+.detail__container{
+    background-color: rgb(225, 225, 225);
+    padding: 2rem 3rem;
+    border-radius: 0 20px 20px 0;
+}
+
+.detail__header{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.detail__header h2{
+    margin: 0;
+    font-weight: 300;
+}
+
+.detail__cards{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}

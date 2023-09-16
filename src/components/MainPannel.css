@@ -1,0 +1,50 @@
+hr {
+    border: 2px solid rgb(107, 107, 107, .2);
+    width: 70%;
+}
+
+.main__container {
+    background-color: rgb(245, 245, 245);
+    padding: 2rem 3rem;
+    border-radius: 20px 0 0 20px;
+}
+
+.svg__currWeather {
+    width: 200px;
+    height: 200px;
+    color: rgb(148, 162, 184);
+}
+
+.main__temp {
+    margin: 0;
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.main__temp span {
+    font-weight: 200
+}
+
+.main__descr {
+    margin: 0;
+    font-weight: 600;
+}
+
+.main__details {
+    margin-top: 40px;
+}
+
+.main__details p {
+    font-weight: 500;
+    margin: 0;
+}
+
+.main__details--sm {
+    font-size: .8rem;
+}
+
+.main__location {
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 0;
+}

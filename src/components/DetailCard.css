@@ -1,0 +1,26 @@
+.card__container {
+    box-sizing: border-box;
+    background-color: rgb(76, 142, 212);
+    width: 200px;
+    border-radius: 15px;
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card__container h4,
+.card__container p {
+    margin: 0;
+    color: rgb(230, 230, 230);
+}
+
+.card__info{
+    font-weight: 200;
+}
+
+.card__status{
+    padding-top: 10px;
+    font-size: 1.7rem;
+    font-weight: 200;
+}
