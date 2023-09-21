@@ -27,7 +27,6 @@ function locationDate(timezone) {
 async function fetchWeather(location, setWeather) {
   const weather = await new AsyncWeather();
   const apiKey = "af6b2fe2411dac447284ae2d8fc40027";
-  console.log(weather.setCity(""))
   weather.setLang("en");
   weather.setCity(location);
   weather.setUnits("metric");
@@ -36,7 +35,6 @@ async function fetchWeather(location, setWeather) {
 
   try {
     const currWeather = await weather.getAllWeather();
-    console.log(currWeather);
     setWeather({
       location: currWeather.name,
       temperature: currWeather.main.temp.toFixed(1),
