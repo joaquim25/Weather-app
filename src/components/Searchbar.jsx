@@ -18,11 +18,12 @@ const Searchbar = ({ handleLocationChange }) => {
     <div className="search__bar">
       <input
         type="text"
+        placeholder="Search for your city..."
         className="search__input"
         onChange={handleChange}
         onKeyDown={(e) => (e.key == "Enter" ? handleSubmit() : null)}
       />
-      <BsSearch className="search__icon" onClick={handleSubmit} />
+      <BsSearch className="search__icon" onClick={handleSubmit}/>
     </div>
   );
 };

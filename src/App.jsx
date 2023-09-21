@@ -32,7 +32,6 @@ async function fetchWeather(location, setWeather) {
   weather.setUnits("metric");
   weather.setApiKey(apiKey);
 
-
   try {
     const currWeather = await weather.getAllWeather();
     setWeather({

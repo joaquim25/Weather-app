@@ -1,21 +1,16 @@
-.detail__container{
+.detail__container {
     background-color: rgb(225, 225, 225);
     padding: 2rem 3rem;
     border-radius: 0 20px 20px 0;
 }
 
-.detail__header{
-    display: flex;
-    justify-content: flex-start;
-    gap: 20px;
-}
-
-.detail__header h2{
+.detail__header h2 {
+    color: rgb(95, 144, 207);
     margin: 0;
-    font-weight: 300;
+    font-weight: 400;
 }
 
-.detail__cards{
+.detail__cards {
     margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
