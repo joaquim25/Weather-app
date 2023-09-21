@@ -10,8 +10,8 @@ const Searchbar = ({ handleLocationChange }) => {
   }
 
   const handleSubmit = () => {
-    console.log(value)
     handleLocationChange(value);
+    setValue("")
   };
 
   return (
@@ -20,6 +20,7 @@ const Searchbar = ({ handleLocationChange }) => {
         type="text"
         placeholder="Search for your city..."
         className="search__input"
+        value={value}
         onChange={handleChange}
         onKeyDown={(e) => (e.key == "Enter" ? handleSubmit() : null)}
       />
