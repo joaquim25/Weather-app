@@ -9,7 +9,7 @@ A simple weather web app built using React that allows you to check the weather 
 - Detailed weather information, including wind speed, humidity, pressure, and more.
 
 ## Demo
-https://github.com/joaquim25/Weather-app/assets/115705731/e2ce0141-cd9f-4464-993f-d7584aac7b49
+https://github.com/joaquim25/Weather-app/assets/115705731/0393d205-fd6e-4783-99f8-934d12387323
 
 ## Getting Started
 
