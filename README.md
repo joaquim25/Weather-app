@@ -1,8 +1,52 @@
-# React + Vite
+# Weather Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple weather web app built using React that allows you to check the weather for a given location.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- View current weather information, including temperature, description, and location.
+- Search for weather in different cities.
+- Detailed weather information, including wind speed, humidity, pressure, and more.
+
+## Demo
+https://github.com/joaquim25/Weather-app/assets/115705731/e2ce0141-cd9f-4464-993f-d7584aac7b49
+
+## Getting Started
+
+Follow these steps to get the app up and running on your local machine.
+
+1. Clone this repository to your local machine:
+
+   ```
+   https://github.com/joaquim25/Weather-app.git
+   ```
+
+2. Navigate to the project directory:
+    ```
+    cd weather-web-app
+    ```
+
+3. Install the project dependencies:
+
+    ```
+    npm install
+    ```
+    
+4. Get an API key from OpenWeather to fetch weather data.
+
+5. Start the development server:
+
+    ```
+    npm start
+    ```
+
+6. Open your browser and visit http://localhost:3000 to see the app in action.
+
+## Usage
+
+- Enter a city name in the search bar and press Enter or click the search icon to fetch weather data for that city.
+- The main panel displays the current weather, while the side panel provides additional weather information.
+
+
+# Author
+Joaquim Luzia
