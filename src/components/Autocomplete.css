@@ -10,6 +10,10 @@
     overflow-x: hidden;
 }
 
+.autocomplete__searching {
+    margin: 0;
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: 5px;

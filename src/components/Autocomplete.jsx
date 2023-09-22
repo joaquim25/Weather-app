@@ -44,6 +44,9 @@ const Autocomplete = ({ searchValue, setValue, handleLocationChange }) => {
           {isSearching && (
             <p className="autocomplete__searching">Searching...</p>
           )}
+          {filteredCities.length === 0 && (
+            <p className="autocomplete__searching">"{searchValue}" not found...</p>
+          )}
           <ul>
             {filteredCities.map((city) => (
               <li key={city} value={city} onClick={handleLocationClick}>
