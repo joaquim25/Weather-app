@@ -1,12 +1,23 @@
 import "./MainPannel.css";
-import { WiDayHaze } from "react-icons/wi";
+import { TiWeatherCloudy, TiWeatherSunny, TiWeatherDownpour, TiWeatherShower, TiWeatherStormy, TiWeatherSnow } from "react-icons/ti";
+import {RiMistFill} from "react-icons/ri";
 import Searchbar from "./Searchbar";
+
+const icons ={
+  "Clouds": <TiWeatherCloudy className='svg__currWeather' />,
+  "Thunderstorm": <TiWeatherStormy className='svg__currWeather' />,
+  "Drizzle": <TiWeatherShower className='svg__currWeather' />,
+  "Rain" : <TiWeatherDownpour className='svg__currWeather' />,
+  "Clear": <TiWeatherSunny className='svg__currWeather' />,
+  "Snow": <TiWeatherSnow className='svg__currWeather' />,
+  "Atmosphere": <RiMistFill className='svg__currWeather' />,
+}
 
 const MainPannel = ({ weather, handleLocationChange }) => {
   return (
     <div className="main__container">
       <Searchbar handleLocationChange={handleLocationChange} />
-      <WiDayHaze className="svg__currWeather" />
+      {icons[weather.description]}
       <h2 className="main__temp">
         {weather.temperature}
         <span>º</span>C
