@@ -18,6 +18,21 @@ body {
   min-height: 100vh;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 10px;
+}
+
+li{
+  text-align: left;
+  cursor: pointer;
+}
+
+li:hover{
+  font-weight: 300;
+}
+
 /*
 
 a {
