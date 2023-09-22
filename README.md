@@ -6,7 +6,7 @@ A simple weather web app built using React that allows you to check the weather 
 
 - View current weather information, including temperature, description, and location.
 - Search for weather in different cities.
-- Detailed weather information, including wind speed, humidity, pressure, and more.
+- Detailed weather information, including current time in that location, wind speed, humidity, pressure, and more.
 
 ## Demo
 https://github.com/joaquim25/Weather-app/assets/115705731/0393d205-fd6e-4783-99f8-934d12387323
